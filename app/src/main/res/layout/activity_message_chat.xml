@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessageChat">
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/draw_btn"
+        android:clickable="true"
+        android:text="Send"
+        android:textColor="@android:color/white"
+        android:textSize="12dp" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvUserMess"
+        android:layout_above="@+id/edMess"
+        >
+    </ListView>
+    <EditText
+        android:layout_alignParentBottom="true"
+        android:id="@+id/edMess"
+        android:layout_toRightOf="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Type message..."
+        android:inputType="text"
+        android:imeOptions="actionSend"
+        android:maxLines="1"
+        android:padding="14dp"
+        android:background="@drawable/draw_edtext"
+
+        />
+</RelativeLayout>

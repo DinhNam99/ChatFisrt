@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/draw_btn"
+        android:clickable="true"
+        android:text="Add Room"
+        android:textColor="@android:color/white"
+        android:textSize="12dp" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvUser"
+        android:layout_above="@+id/edRoom"
+        >
+    </ListView>
+    <EditText
+        android:layout_alignParentBottom="true"
+        android:id="@+id/edRoom"
+        android:layout_toRightOf="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Room..."
+        android:inputType="text"
+        android:imeOptions="actionSend"
+        android:maxLines="1"
+        android:padding="14dp"
+        android:background="@drawable/draw_edtext"
+
+        />
+</RelativeLayout>

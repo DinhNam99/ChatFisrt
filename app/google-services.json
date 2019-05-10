@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "871869578253",
+    "firebase_url": "https://chatapp-f85e0.firebaseio.com",
+    "project_id": "chatapp-f85e0",
+    "storage_bucket": "chatapp-f85e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871869578253:android:98e53ec064dfcd95",
+        "android_client_info": {
+          "package_name": "com.demochat.dell.demochat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871869578253-p9dlv6pjifdl3hjagmfh0f6drgg1efh5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.demochat.dell.demochat",
+            "certificate_hash": "77c347e2c1d6c4575a0a608ea94856606fed9d79"
+          }
+        },
+        {
+          "client_id": "871869578253-fqp4vepcikmc18i5qsov4m6j0utcdcs7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSnSMmNGSXVH_rFqHwep8ONwtkQdRgzQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871869578253-fqp4vepcikmc18i5qsov4m6j0utcdcs7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
